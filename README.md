@@ -7,6 +7,7 @@ as a Landing Page Animated
 
 
 <a href="mailto:cientistaavogadro2019@gmail.com">cientistaavogadro2019@gmail.com</a>
+<br/>
 <a href="tel:947784700">947784700</a>
 
-###By: Scientist Avogadro
+### By: Scientist Avogadro
