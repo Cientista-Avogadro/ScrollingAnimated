@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #eff;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body header {
+  display: flex;
+  flex-direction: column;
+}
+
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid purple;
+  padding: 1rem 4rem;
+}
+
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(128, 0, 128, 0.5);
+}
+
+body header nav span {
+  font-size: 2rem;
+}
+
+body header nav span::first-letter {
+  color: purple;
+}
+
+body header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+body header nav ul a {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.7rem 1rem;
+  border-radius: 6%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+body header nav ul a:hover {
+  background-color: rgba(128, 0, 128, 0.539);
+  transform: scale(1.1);
+}
+
+.active {
+  background-color: rgba(212, 4, 70, 0.539);
+  transform: scale(1.1);
+}
+
+body header nav .group-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+body header nav .group-button button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 6%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+body header nav .group-button button:hover {
+  transform: scale(1.1);
+}
+
+body header nav .group-button button:first-child {
+  background-color: palevioletred;
+}
+
+body header nav .group-button button:nth-child(2) {
+  background-color: purple;
+}
+
+body header #hero {
+  display: flex;
+  padding: 0 4rem;
+  height: 100vh;
+  background-color: yellow;
+}
+
+body main {
+  display: flex;
+  flex-direction: column;
+}
+
+body main #about {
+  display: flex;
+  height: 100vh;
+  background-color: green;
+
+  padding: 0 4rem;
+}
+
+body main #contact {
+  display: flex;
+  height: 100vh;
+  background-color: blue;
+  padding: 0 4rem;
+}
+
+body footer {
+  padding: 0 4rem;
+  height: 20vh;
+  background-color: rgba(128, 0, 128, 0.539);
+}
